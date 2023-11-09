@@ -1,0 +1,3 @@
+class SignUpServices {
+  getSignUpOTP() {}
+}
