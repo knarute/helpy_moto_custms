@@ -92,7 +92,10 @@ class _HomeTabState extends State<HomeTab> {
             children: [
               Text(
                 'In 38 Minues',
-                style: TextStyle(color: Colors.white),
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ],
           ),
@@ -119,7 +122,7 @@ class _HomeTabState extends State<HomeTab> {
                   crossAxisCount: 3),
               itemBuilder: (context, index) {
                 return Padding(
-                  padding: const EdgeInsets.all(8.0),
+                  padding: const EdgeInsets.all(2.0),
                   child: Container(
                     height: 50,
                     width: 50,
